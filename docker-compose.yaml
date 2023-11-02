@@ -5,7 +5,7 @@ services:
     build: ./calculator-api
     ports:
      - target: 8080
-        published: 8080
+       published: 8080
   front-a:
     image: mawusi/lbg-grad-compose-front-a
     build:
